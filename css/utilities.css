@@ -1,0 +1,13 @@
+:root
+{
+   /* Colors */
+   --primary-text-color: #fff;
+   --primary-bg-color: #000;
+   --header-bg-color: #070707;
+   --icons-color: #fff;
+   --secondary-color: #555;
+   --settings-panel-bg-color: #070707;
+
+   /* Radii */
+   --base-border-radius: 10px;
+}

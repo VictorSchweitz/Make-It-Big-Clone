@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/utilities.css">
+   <link rel="stylesheet" href="css/global.css">
+   <link rel="stylesheet" href="css/fonts.css">
+   <script src="https://kit.fontawesome.com/e05f21b32e.js" crossorigin="anonymous"></script>
+   <script src="main.js" defer></script>
+   <title>Make It Big Clone</title>
+</head>
+
+<body>
+   <!-- Header -->
+   <header class="header" id="header">
+      <i class="fas fa-cog" id="settings-panel-open-btn"></i>
+      <div class="container input-container" id="input-container">
+         <input type="text" class="input message-input" id="message-input" placeholder="Message">
+         <i class="fas fa-times" class="btn clear-input-btn" id="clear-input-btn"></i>
+      </div>
+      <i class="fas fa-list"></i>
+   </header>
+
+   <!-- Text Ouput Container -->
+   <div class="container text-output-container" id="text-output-container"></div>
+
+   <!-- Settings Panel -->
+   <div class="panel settings-panel" id="settings-panel">
+      <i class="fa fa-times btn close-settings-panel-btn" id="settings-panel-close-btn"></i>
+      <div class="container settings-container">
+
+         <!-- Font Family -->
+         <div>
+            <label for="font-family-select">Change Font Family:</label>
+            <select class="select font-family-select" id="font-family-select">
+               <option value="open-sans">Open Sans</option>
+               <option value="roboto" selected>Roboto</option>
+               <option value="muli">Muli</option>
+               <option value="lato">Lato</option>
+               <option value="oswald">Oswald</option>
+               <option value="mukta">Mukta</option>
+               <option value="merriweather">Merriweather</option>
+               <option value="nunito-sans">Nunito Sans</option>
+               <option value="barlow">Barlow</option>
+               <option value="cairo">Cairo</option>
+            </select>
+         </div>
+
+         <!-- Font Size -->
+         <div>
+            <label for="font-size-select">Change Font Size:</label>
+            <select class="select font-size-select" id="font-size-select">
+               <option value="font-size-eight">8</option>
+               <option value="font-size-nine">9</option>
+               <option value="font-size-ten">10</option>
+               <option value="font-size-twelve">12</option>
+               <option value="font-size-fourteen">14</option>
+               <option value="font-size-sixteen">16</option>
+               <option value="font-size-eighteen">18</option>
+               <option value="font-size-twenty">20</option>
+               <option value="font-size-twentytwo">22</option>
+               <option value="font-size-twentyfour">24</option>
+               <option value="font-size-twentysix">26</option>
+               <option value="font-size-twentyeight">28</option>
+               <option value="font-size-thirtysix">36</option>
+               <option value="font-size-fourtyeight">48</option>
+               <option value="font-size-seventytwo">72</option>
+            </select>
+         </div>
+
+         <!-- Text Color -->
+         <div>
+            <label for="change-text-color">Change Text Color:</label>
+            <input type="color" class="input change-font-color-input" id="change-text-color">
+         </div>
+
+         <!-- Background Color -->
+         <div>
+            <label for="change-bg-color">Change Background Color:</label>
+            <input type="color" class="input change-bg-color" id="change-bg-color">
+         </div>
+
+      </div>
+   </div>
+</body>
+
+</html>
